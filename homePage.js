@@ -253,12 +253,11 @@
 function formalChange(){
     document.body.style.color = "rgb(255, 217, 0)";
     document.body.style.backgroundColor = "rgb(0, 11, 112)";
-    document.getElementsByClassName("section-title").style.color = "rgb(255, 217, 0)";
+    document.getElementsByTagName("H2").style.color = "rgb(255, 217, 0)";
 }
 
 //Crimson Button
 function crimsonChange(){
     document.body.style.color = "rgb(0, 0, 0)";
     document.body.style.backgroundColor = "rgb(255, 255, 255)";
-    document.getElementsByClassName("section-title").style.color = "rgb(0, 0, 0)";
 }
