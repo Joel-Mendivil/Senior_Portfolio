@@ -31,7 +31,7 @@ body {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: gold;
+    background: blue;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -67,7 +67,7 @@ body {
     z-index: 9997;
     transition: all 0.5s;
     padding: 0 15px;
-    background: blue;
+    background: rgb(0, 3, 192);
     overflow-y: auto;
   }
   
@@ -75,7 +75,7 @@ body {
     margin: 15px auto;
     display: block;
     width: 120px;
-    border: 8px solid black;
+    border: 8px solid gold;
   }
   
   #header .profile h1 {
@@ -183,14 +183,12 @@ body {
   }
   
   #crimson{
-    background-color: crimson;
-    color: black;
-    border: 1px solid white;
+    background-color: rgb(199, 0, 0);
   }
   
   #crimson:hover{
-    background-color: black;
-    color: crimson;
+    background-color: white;
+    color: rgb(199, 0, 0);
   }
   
   #formal{
@@ -240,7 +238,7 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url('Images/background-logo_formal.png'); 
+    background: url('Images/background_formal.png'); 
   }
   
   #hero .hero-container {
@@ -461,7 +459,7 @@ body {
     border-radius: 50px;
     left: -9px;
     top: 0;
-    background: black;
+    background: gold;
     border: 2px solid gold;
   }
   
